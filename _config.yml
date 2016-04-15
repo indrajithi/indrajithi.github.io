@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Site Title
+title: Article Hack
 locale: en_US
-description: Describe your website here.
+description: My Experiments With Computer.
 logo: site-logo.png
 search: true
 url: https://indrajithi.github.io
@@ -48,13 +48,13 @@ titlecase: true
 
 # Site owner
 owner:
-  name: Your Name
+  name: Indrajith Indraprastham
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: me@articlehack.com
   disqus-shortname:
   twitter: #username
   facebook: #username
-  github: #username
+  github: indrajithi
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
