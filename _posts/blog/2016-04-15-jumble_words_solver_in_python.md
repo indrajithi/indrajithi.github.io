@@ -6,7 +6,7 @@ categories:
 excerpt:
 tags: []
 image:
-  feature: img1.jpg
+  feature: the-power-of-words+copy.jpg
   thumb: thumb1.jpg
 date: 2016-04-15T18:54:48+05:30
 ---
