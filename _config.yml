@@ -9,6 +9,7 @@ search: true
 url: https://indrajithi.github.io
 #url: http://localhost:4000
 
+
 # Jekyll configuration
 
 permalink:   /:categories/:title/
