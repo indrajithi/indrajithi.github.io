@@ -48,6 +48,7 @@ page_layout: page
 # Format titles with titlecase?
 titlecase: true
 
+comments: true
 
 # Site owner
 owner:
@@ -55,11 +56,11 @@ owner:
   #avatar: bio-photo.jpg
   avatar: avatar.jpg
   email: mail@indrajith.me
-  disqus-shortname:
-  twitter: #username
-  facebook: #username
+  disqus-shortname: indrajith.disqus.com
+  twitter: indrajithtweet
+  facebook: fb.com/indrajithi
   github: indrajithi
-  stackexchange: #http://stackoverflow.com/users/123456/username
+  stackexchange: https://stackoverflow.com/users/2337276/indrajith
   linkedin: #username
   instagram: #username
   flickr: #username
