@@ -3,8 +3,8 @@ layout: post
 title: Jumble Words solver using Python.
 modified:
 categories: 
-excerpt:
-tags: []
+excerpt: Python CTI program that gives all the possible match for the given word.
+tags: [Python]
 image:
   feature: the-power-of-words+copy.jpg
   thumb: thumb1.jpg
