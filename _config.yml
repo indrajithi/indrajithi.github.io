@@ -50,6 +50,8 @@ titlecase: true
 
 comments: true
 
+share: true
+
 # Site owner
 owner:
   name: Indrajith Indraprastham
