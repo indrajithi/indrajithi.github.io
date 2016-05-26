@@ -174,6 +174,7 @@ bool muteFlag = false;
 sf::Time totalMusicDuration;
 sf::Time timePlay;
 sf::Music music;
+sf::Time timePlay;
 
 kiss_fft_cpx in[N],out[N];
 
@@ -261,6 +262,8 @@ int main(int argc, char *argv[])
 }
 {% endhighlight %}
 
-**[>> Part 3](blog/music-visualizer-in-c-using-opengl-part-3/)**
+**[>> Part 3](/blog/music-visualizer-in-c-using-opengl-part-3/)**
+
+**[Full Source Code.](https://github.com/indrajithi/Audio-Visualizer)**
 
 

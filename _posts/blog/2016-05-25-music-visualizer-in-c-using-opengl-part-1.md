@@ -4,7 +4,7 @@ title: Music Visualizer in C++ Using OpenGL Part 1
 modified:
 categories: blog
 excerpt: For the given input audio file (.wav) the program will give the real time audio spectrum by performing Fast Fourier Transform (FFT) on the audio samples and plot the graph using OpenGL. 
-tags: []
+tags: [C++,OpenGL]
 image:
   feature:
 date: 2016-05-25T21:01:43+05:30
@@ -106,7 +106,7 @@ cmake ..\aquila-src
 make
 make install
 ```
-*SFLM:*
+**SFLM:**
 
 Installing SFML is simple. You need administrative privilege on the machine
 
@@ -136,3 +136,5 @@ To run the project:
 {% endhighlight %}
 
 **[>> Part 2](/blog/music-visualizer-in-c-using-opengl-part-2/)**
+
+**[Full Source Code.](https://github.com/indrajithi/Audio-Visualizer)**
