@@ -10,7 +10,7 @@ image:
 date: 2016-05-25T21:01:43+05:30
 ---
 
-![Audio Visualizer](/scr.png "Screenshot")
+![Audio Visualizer](/images/spectrum.gif "Screenshot of spectrum")
 
 # Audio Visualizer
 
