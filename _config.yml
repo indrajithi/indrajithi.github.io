@@ -56,15 +56,16 @@ share: true
 owner:
   name: Indrajith Indraprastham
   #avatar: bio-photo.jpg
-  avatar: avatar.jpg
+  #avatar: avatar.jpg
+  avatar: bio.jpg
   email: mail@indrajith.me
   disqus-shortname: indrajith
   twitter: indrajithtweet
   facebook: indrajithi
   github: indrajithi
   stackexchange: https://stackoverflow.com/users/2337276/indrajith
-  linkedin: #username
-  instagram: #username
+  linkedin: https://www.linkedin.com/in/indrajith-indraprastham-2b513b52/
+  instagram: indrajith_indraprastham
   flickr: #username
   tumblr: #username
   pinterest: #username

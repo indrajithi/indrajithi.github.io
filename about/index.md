@@ -9,9 +9,11 @@ image:
   creditlink: 
 ---
 
-I am Indrajith. This blog is to keep track of my work/projects, so that I refer it later.
-Feel free to use the codes which I write in this blog in your project. All the things I write in this blog
+I am Indrajith and this is my blog. I made this keep track of my work/projects.
+Feel free to use the codes which I write in this blog. All the things I write in this blog
 are under **[Creative Common License](https://creativecommons.org/licenses/by/4.0/)** unless stated otherwise. 
+
+You can reach me on my email `mail[@]indrajith.me`
 
 <a markdown="0" href="http://indrajith.me" class="btn">Portfolio</a>
 
