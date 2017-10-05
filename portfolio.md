@@ -12,7 +12,7 @@ image:
 
 ### Inventory Level Optimization — *Predictive model building.*
 
-Demand forecasting for an Ecommerce shop with over 1 Million products. 
+Demand forecasting for an E-commerce shop with over 1 Million products. 
 
 Analyzed large inventory datasets. Determined the rate of change and the movement of products in the inventory. 
 Build statistical and machine learning models using historical data to forecast demand and optimize inventory levels. 
@@ -31,7 +31,8 @@ Build statistical and machine learning models using historical data to forecast 
 Used various machine learning classification algorithms like logistic regression, Nearest Neighbor, Support Vector Machine to classify music based on genres. Made a web app using Python, Django and AngularJS. 
 
 
-
+### [Time-Spark](https://github.com/indrajithi/time-spark) — *A python package for time series analysis in Spark*
+![Time Spark](https://raw.githubusercontent.com/indrajithi/time-spark/master/plt.png)
 
 ### [Music Genre Classification](https://github.com/indrajithi/mgc-python) — *A Python package*
 Developed a python package for music genre classification. This package contains modules for `feature extraction`, classification using `Support Vector Machine`, `cross validation`, `best-combination` and modules for finding `accuracy`. 
