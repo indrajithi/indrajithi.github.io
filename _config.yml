@@ -6,8 +6,8 @@ description: My Experiments With Computer.
 #logo: site-logo.png
 logo : matri2x.jpg
 search: true
-# url: https://indrajithi.github.io
-url: http://localhost:4000
+url: https://indrajithi.github.io
+#url: http://localhost:4000
 
 
 # Jekyll configuration
@@ -64,7 +64,7 @@ owner:
   facebook: indrajithi
   github: indrajithi
   stackexchange: https://stackoverflow.com/users/2337276/indrajith
-  linkedin: https://www.linkedin.com/in/indrajith-indraprastham-2b513b52/
+  linkedin: indrajith-indraprastham/
   instagram: indrajith_indraprastham
   flickr: #username
   tumblr: #username

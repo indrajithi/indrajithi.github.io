@@ -2,11 +2,11 @@
 - title: Home
   url: /
 
+- title: Portfolio
+  url: /portfolio/
+
+- title: Resume
+  url: /resume/
+
 - title: About
   url: /about/
-
-- title: Blog
-  url: /blog/
-
-- title: Search
-  url: /search/
