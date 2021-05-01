@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://indrajithi.github.io/sitemap.xml
