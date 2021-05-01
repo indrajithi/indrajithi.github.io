@@ -5,21 +5,12 @@
     <link>https://indrajithi.github.io/</link>
     <description>Recent content on Blog of Indrajith Indraprastham</description>
     <image>
-      <url>https://indrajithi.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://indrajithi.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://indrajithi.github.io/dp.jpg</url>
+      <link>https://indrajithi.github.io/dp.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 May 2021 01:10:47 +0530</lastBuildDate><atom:link href="https://indrajithi.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>https://indrajithi.github.io/posts/my-first-post/</link>
-      <pubDate>Sat, 01 May 2021 01:10:47 +0530</pubDate>
-      
-      <guid>https://indrajithi.github.io/posts/my-first-post/</guid>
-      <description>Desc Text.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 25 Mar 2019 16:05:28 +0530</lastBuildDate><atom:link href="https://indrajithi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to develop a Computerized Adaptive Test (CAT)</title>
       <link>https://indrajithi.github.io/posts/computerized-adaptive-test/</link>
