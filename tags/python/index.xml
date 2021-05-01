@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Blog of Indrajith Indraprastham</title>
+    <link>https://indrajithi.github.io/tags/python/</link>
+    <description>Recent content in python on Blog of Indrajith Indraprastham</description>
+    <image>
+      <url>https://indrajithi.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://indrajithi.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Apr 2016 18:54:48 +0530</lastBuildDate><atom:link href="https://indrajithi.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jumble Words solver using Python</title>
+      <link>https://indrajithi.github.io/posts/jumble-words-solver-in-python/</link>
+      <pubDate>Fri, 15 Apr 2016 18:54:48 +0530</pubDate>
+      
+      <guid>https://indrajithi.github.io/posts/jumble-words-solver-in-python/</guid>
+      <description>Python CTI program that gives all the possible match for the given word.</description>
+    </item>
+    
+  </channel>
+</rss>
