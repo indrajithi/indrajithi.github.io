@@ -114,4 +114,4 @@ Under IRT, the **probability** of an examinee with a given θ^ value (_estimated
 
 ![Correct Answer](/p-correct-answer-irt.png)
 
-[WIP]
+[WIP] 

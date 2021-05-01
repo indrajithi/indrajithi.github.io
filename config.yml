@@ -53,7 +53,7 @@ params:
 
     # profile-mode
     profileMode:
-        enabled: falsetrue # needs to be explicitly set
+        enabled: true # needs to be explicitly set
         title: "Indrajith Indraprastham"
         subtitle: "Software engineer @gojektech"
         imageUrl: "dp3.jpg"
