@@ -90,7 +90,7 @@ Since d is a probability, 0< d ≤1, the higher the value of this parameter, the
 
 In our implementation, we have used three-parameter model (3PL) with parameters `a, b, c and d` is a constant *numpy.ones((n))*.
 
-![Principats of cat](/principals-of-cat.png)
+![Principal of cat](/principals-of-cat.png)
 
 > Each item has a different set of these three parameters. These parameters are usually calculated based on prior administrations of the item.
 
@@ -114,4 +114,42 @@ Under IRT, the **probability** of an examinee with a given θ^ value (_estimated
 
 ![Correct Answer](/p-correct-answer-irt.png)
 
-[WIP] 
+ 
+With IRT, maximum information can be quantified as the standardized slope of ( θ) at θ^ . In other words
+
+![Information IRT](/images/information-irt.png)
+
+**The CAT (Computerized Adaptive Test) algorithm: is usually an iterative process with the following steps:**
+
+- **Ability Estimation**: All the items that have not yet been administered are evaluated to determine which will be the best one to administer as next-item, given the currently estimated ability level.
+
+- **Item Selection:** The “best” next item is administered and the examinee responds.
+
+- A new ability estimate is computed based on the responses to all of the administered items.`(Log likelyhood, DifferentialEvolutionEstimator, HillClimbingEstimator)`
+
+- **Steps 1** through **3** are repeated until a **stopping criterion** is met.
+
+![IRT steps](/images/irt-steps.png)
+
+**Ability Initialisation:** _(only first time)_
+We can initialize Randomly or on Fixed Point _(-4, 4)_.
+
+**Ability estimation:** (except first time):
+A new ability estimate is computed based on the responses to all of the administered items. There are two main types of ways of estimating θ^: and these are the Bayesian methods and maximum-likelihood ones.
+
+    Maximum-likelihood methods choose the θ^ value that maximizes the log likelihood of an examinee having a certain response vector, given the corresponding item parameters.
+
+    Bayesian methods used a priori information (usually assuming proficiency and parameter distributions) to make new estimations. The knowledge of new estimations is then used to make new assumptions about the parameter distributions, refining future estimations. [1]
+
+Item Selection:
+
+We used an implementation of the random sequence selector in which, at every step of the test, an item is randomly chosen from the n most informative items in the item bank, n being a predefined value.
+Stopping rule:
+
+The stopping criterion could be time, the number of items administered, change in ability estimate, content coverage, a precision indicator such as the standard error.
+
+    We use a combination of : time, ability estimate and precision.
+
+In other words:
+
+With IRT, maximum information can be quantified as the standardised slope of Pi( theta ) at theta_hat.

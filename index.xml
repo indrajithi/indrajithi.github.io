@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog of Indrajith Indraprastham</title>
-    <link>https://indrajithi.github.io/</link>
+    <link>https://indrajith.me/</link>
     <description>Recent content on Blog of Indrajith Indraprastham</description>
     <image>
-      <url>https://indrajithi.github.io/dp.jpg</url>
-      <link>https://indrajithi.github.io/dp.jpg</link>
+      <url>https://indrajith.me/dp.jpg</url>
+      <link>https://indrajith.me/dp.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Mar 2019 16:05:28 +0530</lastBuildDate><atom:link href="https://indrajithi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Mar 2019 16:05:28 +0530</lastBuildDate><atom:link href="https://indrajith.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to develop a Computerized Adaptive Test (CAT)</title>
-      <link>https://indrajithi.github.io/posts/computerized-adaptive-test/</link>
+      <link>https://indrajith.me/posts/computerized-adaptive-test/</link>
       <pubDate>Mon, 25 Mar 2019 16:05:28 +0530</pubDate>
       
-      <guid>https://indrajithi.github.io/posts/computerized-adaptive-test/</guid>
+      <guid>https://indrajith.me/posts/computerized-adaptive-test/</guid>
       <description>In this post, I’ll share the step by step process we used at AirCTO to create computerized adaptive tests.
 At AirCTO we use adaptive tests to measure the ability of the candidate in different domains (Python, Front end development, Docker etc,.).
 Back to basics: What is computerized adaptive test?  Computerized adaptive testing (CAT)) is a form of computer-based test that adapts to the examinee&amp;rsquo;s ability level. For this reason, it has also been called tailored testing.</description>
@@ -24,28 +24,28 @@ Back to basics: What is computerized adaptive test?  Computerized adaptive testi
     
     <item>
       <title>Machine Learning Approach to Classify Music Based on Genre</title>
-      <link>https://indrajithi.github.io/posts/machine-learning-pproach-to-classify-music-based-on-genre/</link>
+      <link>https://indrajith.me/posts/machine-learning-pproach-to-classify-music-based-on-genre/</link>
       <pubDate>Sat, 29 Jul 2017 11:58:29 +0530</pubDate>
       
-      <guid>https://indrajithi.github.io/posts/machine-learning-pproach-to-classify-music-based-on-genre/</guid>
+      <guid>https://indrajith.me/posts/machine-learning-pproach-to-classify-music-based-on-genre/</guid>
       <description>Music Genre Classifier Demo Table of Contents  Introduction Requirements Installation Music Genre Classifier App Architecture Flow Chart Prototype  Feature Extraction Principal Component Analysis. Dimensionality reduction Classification  K-nearest neighbors (KNN) Logistic Regression     Python package mysvm  feature svm acc   Results Conclusion License  Music is categorized into subjective categories called genres. With the growth of the internet and multimedia, systems applications that deal with the musical databases gained importance and demand for Music Information Retrieval (MIR) applications increased.</description>
     </item>
     
     <item>
       <title>Music Visualizer in C Using OpenGL</title>
-      <link>https://indrajithi.github.io/posts/music-visualizer-in-c-using-opengl/</link>
+      <link>https://indrajith.me/posts/music-visualizer-in-c-using-opengl/</link>
       <pubDate>Wed, 25 May 2016 21:01:43 +0530</pubDate>
       
-      <guid>https://indrajithi.github.io/posts/music-visualizer-in-c-using-opengl/</guid>
+      <guid>https://indrajith.me/posts/music-visualizer-in-c-using-opengl/</guid>
       <description>For the given input audio file (.wav) the program will give the real time audio spectrum by performing Fast Fourier Transform (FFT) on the audio samples and plot the graph using OpenGL.</description>
     </item>
     
     <item>
       <title>Jumble Words solver using Python</title>
-      <link>https://indrajithi.github.io/posts/jumble-words-solver-in-python/</link>
+      <link>https://indrajith.me/posts/jumble-words-solver-in-python/</link>
       <pubDate>Fri, 15 Apr 2016 18:54:48 +0530</pubDate>
       
-      <guid>https://indrajithi.github.io/posts/jumble-words-solver-in-python/</guid>
+      <guid>https://indrajith.me/posts/jumble-words-solver-in-python/</guid>
       <description>Python CTI program that gives all the possible match for the given word.</description>
     </item>
     

@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Blog of Indrajith Indraprastham</title>
-    <link>https://indrajithi.github.io/categories/</link>
+    <link>https://indrajith.me/categories/</link>
     <description>Recent content in Categories on Blog of Indrajith Indraprastham</description>
     <image>
-      <url>https://indrajithi.github.io/dp.jpg</url>
-      <link>https://indrajithi.github.io/dp.jpg</link>
+      <url>https://indrajith.me/dp.jpg</url>
+      <link>https://indrajith.me/dp.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://indrajithi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://indrajith.me/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Blog of Indrajith Indraprastham</title>
-    <link>https://indrajithi.github.io/tags/</link>
+    <link>https://indrajith.me/tags/</link>
     <description>Recent content in Tags on Blog of Indrajith Indraprastham</description>
     <image>
-      <url>https://indrajithi.github.io/dp.jpg</url>
-      <link>https://indrajithi.github.io/dp.jpg</link>
+      <url>https://indrajith.me/dp.jpg</url>
+      <link>https://indrajith.me/dp.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 May 2016 21:01:43 +0530</lastBuildDate><atom:link href="https://indrajithi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 May 2016 21:01:43 +0530</lastBuildDate><atom:link href="https://indrajith.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OpenGL</title>
-      <link>https://indrajithi.github.io/tags/opengl/</link>
+      <link>https://indrajith.me/tags/opengl/</link>
       <pubDate>Wed, 25 May 2016 21:01:43 +0530</pubDate>
       
-      <guid>https://indrajithi.github.io/tags/opengl/</guid>
+      <guid>https://indrajith.me/tags/opengl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
-      <link>https://indrajithi.github.io/tags/python/</link>
+      <link>https://indrajith.me/tags/python/</link>
       <pubDate>Fri, 15 Apr 2016 18:54:48 +0530</pubDate>
       
-      <guid>https://indrajithi.github.io/tags/python/</guid>
+      <guid>https://indrajith.me/tags/python/</guid>
       <description></description>
     </item>
     
