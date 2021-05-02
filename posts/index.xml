@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Blog of Indrajith Indraprastham</title>
+    <title>Posts on Indrajith Indraprastham</title>
     <link>https://indrajith.me/posts/</link>
-    <description>Recent content in Posts on Blog of Indrajith Indraprastham</description>
+    <description>Recent content in Posts on Indrajith Indraprastham</description>
     <image>
       <url>https://indrajith.me/dp.jpg</url>
       <link>https://indrajith.me/dp.jpg</link>
@@ -28,7 +28,8 @@ Back to basics: What is computerized adaptive test?  Computerized adaptive testi
       <pubDate>Sat, 29 Jul 2017 11:58:29 +0530</pubDate>
       
       <guid>https://indrajith.me/posts/machine-learning-pproach-to-classify-music-based-on-genre/</guid>
-      <description>Music Genre Classifier Demo Table of Contents  Introduction Requirements Installation Music Genre Classifier App Architecture Flow Chart Prototype  Feature Extraction Principal Component Analysis. Dimensionality reduction Classification  K-nearest neighbors (KNN) Logistic Regression     Python package mysvm  feature svm acc   Results Conclusion License  Music is categorized into subjective categories called genres. With the growth of the internet and multimedia, systems applications that deal with the musical databases gained importance and demand for Music Information Retrieval (MIR) applications increased.</description>
+      <description>Music Genre Classifier Demo Music is categorized into subjective categories called genres. With the growth of the internet and multimedia, systems applications that deal with the musical databases gained importance and demand for Music Information Retrieval (MIR) applications increased.
+Musical genres have no strict definitions and boundaries as they arise through a complex interaction between the public, marketing, historical, and cultural factors. We are going to create an application that accepts a music file and classify it in to genres.</description>
     </item>
     
     <item>

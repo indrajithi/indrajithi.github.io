@@ -24,30 +24,6 @@ Music Genre Classifier
 
 ### [Demo](https://genreclassifier.herokuapp.com/)
 
-### Table of Contents
-
-- [Introduction](#introduction)
-- [Requirements](#requirements) 
-- [Installation](#installation)
-- [Music Genre Classifier App](#music-genre-classifier-app)
-- [Architecture](#architecture)
-- [Flow Chart](#flow-chart)
-- [Prototype](#prototype)
-    - [Feature Extraction](#feature-extraction)
-    - [Principal Component Analysis.](#principal-component-analysis)
-    - [Dimensionality reduction](#dimensionality-reduction)
-    - [Classification](#classification)
-        - [K-nearest neighbors (KNN)](#k-nearest-neighbors-knn)
-        - [Logistic Regression](#logistic-regression)
-- [Python package mysvm](#python-package-mysvm)
-    - [*feature*](#feature)
-    - [*svm*](#svm)
-    - [*acc*](#acc)
-- [Results](#results)
-- [Conclusion](#conclusion)
-- [License](#license)
-
-
 Music is categorized into subjective categories called genres. With the growth of the internet and multimedia, systems applications that deal with the musical databases gained importance and demand for Music Information Retrieval (MIR) applications increased. 
 
 Musical genres have no strict definitions and boundaries as they arise through a complex interaction between the public, marketing, historical, and cultural factors. We are going to create an application that accepts a music file and classify it in to genres. 

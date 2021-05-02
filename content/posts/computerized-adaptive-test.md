@@ -134,22 +134,38 @@ With IRT, maximum information can be quantified as the standardized slope of ( �
 **Ability Initialisation:** _(only first time)_
 We can initialize Randomly or on Fixed Point _(-4, 4)_.
 
-**Ability estimation:** (except first time):
-A new ability estimate is computed based on the responses to all of the administered items. There are two main types of ways of estimating θ^: and these are the Bayesian methods and maximum-likelihood ones.
+**Ability estimation:** _(except first time)_:
+A new ability estimate is computed based on the responses to all of the administered items. There are two main types of ways of estimating θ^: and these are the _Bayesian methods_ and _maximum-likelihood_ ones.
 
-    Maximum-likelihood methods choose the θ^ value that maximizes the log likelihood of an examinee having a certain response vector, given the corresponding item parameters.
+> **Maximum-likelihood** methods choose the θ^ value that maximizes the log likelihood of an examinee having a certain response vector, given the corresponding item parameters.
 
-    Bayesian methods used a priori information (usually assuming proficiency and parameter distributions) to make new estimations. The knowledge of new estimations is then used to make new assumptions about the parameter distributions, refining future estimations. [1]
+> **Bayesian methods** used a priori information (usually assuming proficiency and parameter distributions) to make new estimations. The knowledge of new estimations is then used to make new assumptions about the parameter distributions, refining future estimations. [[1](https://pythonhosted.org/catsim/estimation.html)]
 
-Item Selection:
+## Item Selection:
 
-We used an implementation of the random sequence selector in which, at every step of the test, an item is randomly chosen from the n most informative items in the item bank, n being a predefined value.
-Stopping rule:
+We used an implementation of the **random sequence selector** in which, at every step of the test, an item is randomly chosen from the _n_ most **informative items** in the item bank, _n_ being a predefined value.
+
+## Stopping rule:
 
 The stopping criterion could be time, the number of items administered, change in ability estimate, content coverage, a precision indicator such as the standard error.
 
-    We use a combination of : time, ability estimate and precision.
+> We use a combination of : time, ability estimate and precision.
 
-In other words:
+_In other words:_
 
-With IRT, maximum information can be quantified as the standardised slope of Pi( theta ) at theta_hat.
+> With IRT, maximum information can be quantified as the standardised slope of **Pi( theta )** at **theta_hat**.
+
+![Pass fail](/images/pass-fail.jpg)
+
+> **[Cut Score Determination](https://stats.stackexchange.com/a/134433/144825)**: _While there are many methods for setting the cut score, there are a few that easily incorporate the information provided by IRT methods._ 
+
+> _That is, many methods such as The θ values obtained via IRT provide a unique opportunity to get a more reliable estimate of respondent scores, and you are wise to look for a cut score method that can incorporate that info and typically use observed scores for determining the cut score, and inherently ignore the measurement error involved in that. in **IRT: Pass/Fail**_
+
+The adaptive test will give the ability of the user in the interval -4 to +4 (low, high). We can either use this scale or convert it to a different scale: Transform [your data using a desired mean and standard deviation.](https://stats.stackexchange.com/a/46431/144825)
+
+## Reference
+
+1. [A visual guide to item response theory](https://www.metheval.uni-jena.de/irt/VisualIRT.pdf)
+2. [Interactive, Computer Adaptive Testing Tutorial.](http://echo.edres.org:8080/scripts/cat/catdemo.htm#_1_9)
+3. [Cut Score Determination](https://stats.stackexchange.com/a/134433/144825)
+4. [Computerized Adaptive Testing Simulator](https://github.com/douglasrizzo/catsim)

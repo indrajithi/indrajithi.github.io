@@ -1,6 +1,6 @@
 baseURL: "https://indrajith.me/"
 languageCode: en-us
-title: Blog of Indrajith Indraprastham
+title: Indrajith Indraprastham
 paginate: 5
 theme: PaperMod
 
@@ -17,7 +17,7 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: Blog of Indrajith Indraprastham
+    title: Indrajith Indraprastham
     description: "hello"
     keywords: [Blog, Portfolio]
     author: Indrajith Indraprastham
@@ -55,7 +55,7 @@ params:
     profileMode:
         enabled: true # needs to be explicitly set
         title: "Indrajith Indraprastham"
-        subtitle: "Software engineer @gojektech"
+        subtitle: mail [✈@] indrajith.me
         imageUrl: "dp3.jpg"
         imageWidth: 120
         imageHeight: 120
