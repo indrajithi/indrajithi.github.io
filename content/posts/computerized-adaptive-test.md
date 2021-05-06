@@ -163,6 +163,7 @@ _In other words:_
 
 The adaptive test will give the ability of the user in the interval -4 to +4 (low, high). We can either use this scale or convert it to a different scale: Transform [your data using a desired mean and standard deviation.](https://stats.stackexchange.com/a/46431/144825)
 
+
 ## Reference
 
 1. [A visual guide to item response theory](https://www.metheval.uni-jena.de/irt/VisualIRT.pdf)
