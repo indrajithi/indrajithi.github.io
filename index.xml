@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Mar 2019 16:05:28 +0530</lastBuildDate><atom:link href="https://indrajith.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Oct 2021 23:17:01 +0530</lastBuildDate><atom:link href="https://indrajith.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atomic Habits [Notes]</title>
+      <link>https://indrajith.me/posts/atomic-habits-book-summary/</link>
+      <pubDate>Thu, 21 Oct 2021 23:17:01 +0530</pubDate>
+      
+      <guid>https://indrajith.me/posts/atomic-habits-book-summary/</guid>
+      <description>This is notes from the book Atomic Habits by James Clear
+The Fundamentals Chapter 1: The Surprising Power of Atomic Habits  The effects of small habits compound over time. If you can get 1% better each day, by the end of the year you&amp;rsquo;d have become 37 times better. Conversely with bad habits, if you had have become 1% worse every day for one year you&amp;rsquo;ll decline nearly down to zero.</description>
+    </item>
+    
     <item>
       <title>How to develop a Computerized Adaptive Test (CAT)</title>
       <link>https://indrajith.me/posts/computerized-adaptive-test/</link>
