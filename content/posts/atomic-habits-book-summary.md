@@ -77,3 +77,20 @@ When you do meditation/yoga everyday you embody the identity of a spiritual pers
   3. Response: Make it difficult
   4. Reward: Make it unsatisfying
 
+### Chapter 4: Man who did'nt look right
+
+- With enough practice / repetition. Your brain will pick up on the cues that predicts certain outcomes without consciously thinking about it.
+- Once habit become automatic when we stop paying attention to it. The cue, craving, response will happen automatically that we are hardly conscious of it. The reason that habits are forming is because we can push the the repetitive task to auto-pilot and reduce cognitive load. It will be hard to identify an habit that have become automatic. Eg:
+  - Switching on the lights in a dark room.
+  - Completing others sentences
+- Some of the habits are very hidden to self, and only become aware when someone points it out to you.
+- Pointing and calling raises your level of awareness.
+  - By verbalizing your actions you become more conscious and awareness.
+    - People who are doing repetitive work which are critical (Aircraft QA, train operator) often uses pointing and calling to raise their awareness and reduce the error.
+
+### Chapter 5: The best way to start a new habit
+
+
+
+
+
