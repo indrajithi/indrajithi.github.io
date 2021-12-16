@@ -77,7 +77,9 @@ When you do meditation/yoga everyday you embody the identity of a spiritual pers
   3. Response: Make it difficult
   4. Reward: Make it unsatisfying
 
-### Chapter 4: Man who did'nt look right
+## The First law: Make it Obvious
+
+### Chapter 4: Man who didn't look right
 
 - With enough practice / repetition. Your brain will pick up on the cues that predicts certain outcomes without consciously thinking about it.
 - Once habit become automatic when we stop paying attention to it. The cue, craving, response will happen automatically that we are hardly conscious of it. The reason that habits are forming is because we can push the the repetitive task to auto-pilot and reduce cognitive load. It will be hard to identify an habit that have become automatic. Eg:
@@ -90,7 +92,85 @@ When you do meditation/yoga everyday you embody the identity of a spiritual pers
 
 ### Chapter 5: The best way to start a new habit
 
+- 1st law of behavioral change is to make it **Obvious**
+- Two most common cues are time and location.
+Strategies like Implementation intention and Habit stacking are among the most practical ways to create obvious habits.
 
+- **Implementation intention**:
+  - I will [BEHAVIOR] at [TIME] in [LOCATION]
+- **Habit Stacking:**
+  - After [CURRENT_HABIT], I will [NEW_HABIT]
 
+### Chapter 6: Motivation is overrated. Environment matters more
 
+- People often chose products not because what they are, but because where they are.
+- Environment is the invisible cue that shape human behavior.
+- Behavior is the function of person in the environment.
+  - B = f(P,E)
+- Every habit is initiated by a cue, we are more likely to notice the cue that stand out.
+  - If you want to practice more Guitar, place the Guitar in the living room where you cannot fail to notice
+- Make the cues of the good habits obvious in your environment.
+- It is easier to build new habits in new environment because you are not fighting against the old cues.
+
+### Chapter 7: Secret to Self-Control
+
+- Inversion of 1st Law of Behavior Change is to make it invisible
+- Once a habit if formed it is unlikely to be forgotten
+  - This to me at first seemed to me as a bad thing. Because I want have overcome some pretty bad habits myself which I am ashamed of now.
+  The fact that they are never forgotten made me worried. After I spend some time thinking about this made me realize this is actually a good thing. You need not forget this habit, it is better to remember them so that you know what are the bad effects of that and will probably help you in not going back to this habit loop again.
+- **It is easier to avoid temptation than to resist it.**
+- One of the most practical ways to avoid a bad habit is to reduce the exposure to the cue that cause it.
+- Self control is a short term strategy, not a long one.
+
+## The second law: Make it attractive
+
+### Chapter 8: How to make a Habit Irresistible
+
+- The more attractive 
+- Dopamine is released not only when you experience pleasure, but also when you anticipate a reward.
+  - The reward system that is activated when you anticipate a reward is same as the one that gets activated when you receive a reward.
+  - The brain has more neural circuitry allocated for wanting rewards than for liking them.
+  - The fact that our brain allocates more spaces for craving and desire provide evidence for the crucial roles these process play.
+  - Desire is the engine that drives behavior. It is the craving that leads to response.
+- Habits are dopamine driven feedback loops. When dopamine rises, so does our motivation to act.
+
+**It is the anticipation of the reward, not the fulfillment of it that gets us to take action. The greater the anticipation, the greater the dopamine spike.**
+
+Use temptation bundling
+
+- The strategy is to pair an action you want to do with an action you need to do
+
+### Chapter 9: The role of family and friends in shaping your habits
+
+Humans are heard animals, we want to fit in, bond with others and become acceptable. This nature of us is rooted in our evolution.
+When we are accepted in a tribe, we have access to shared resources, higher chances of mating and increased safety. As a result, on of the deepest human desire is to belong.
+
+**Behaviors are attractive when they help us fit in**
+This ancient preference exerts a powerful influence on our modern behavior. The need to "fit in" drives most of our actions and behavior.
+The rules of these vary from culture and time in history. The culture we live in determines which behaviors are attractive to us.
+
+- "In the long history of mankind, those who learned to collaborate and improvise most efficiently prevailed." - Charls Darwin
+- We tend to adopt and imitate the habits that are praised and approved by our culture, because we have a strong desire to fit in and belong to the tribe.
+
+We imitate the behaviors of three groups in particular:
+
+1. The close (family and friends)
+2. The many (the tribe)
+3. The powerful (those with status and privilege)
+
+Each group offers an opportunity to leverage the 2nd Law of Behavior change and make our habits more attractive.
+
+#### 1. The close
+
+We tend to imitate the behaviors of the people we are close with. The need to *fit-in* and belong are so deep rooted in us, often these habit formation are subconscious. I have seen myself use some words that are used by close colleagues.
+
+- Surround yourself with people who have the habits you want to cultivate. You'll rise together
+- To make this strategy even more better, you can take this strategy one step further.
+  - Join a culture (1) where your desired behavior is the normal behavior and (2) you already have something in common with the group.
+    - The change become more appealing because it feels like something people like you do.
+- The need to belong to a group is a great motivator.
+
+*The normal behavior of the tribe often overpowers the desired behavior of the individual. Most days we'd rather be wrong with the crowd than be right by ourselves.*
+
+If a behavior can get us approval, respect, and praise, we find it attractive.
 

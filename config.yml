@@ -24,7 +24,7 @@ params:
     # author: ["Me", "You"] # multiple authors
     images: ["dp.jpg"]
     DateFormat: "January 2, 2006"
-    defaultTheme: light
+    defaultTheme: dark
     disableThemeToggle: false
     ShowReadingTime: true
     ShowShareButtons: false
@@ -34,7 +34,7 @@ params:
     disableScrollToTop: false
     comments: true
     hidemeta: false
-    hideSummary: true 
+    hideSummary: true
     showtoc: true
     tocopen: false
 
