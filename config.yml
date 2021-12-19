@@ -55,7 +55,7 @@ params:
     profileMode:
         enabled: true # needs to be explicitly set
         title: "Indrajith Indraprastham"
-        subtitle: "Hi there, welcome to my blog. I am deeply interested in Technology, Investing, Politics and Psychology. Most of the things I consume are on these topics. Though I have political opinions and biases, I hardly make them public these days. Most of my post are going to be related to Tech, Wealth and Psy."
+        subtitle: "Hi there, welcome to my blog. I am deeply interested in Technology, Investing, Politics and Psychology. Most of my post are going to be related to Tech, Wealth and Psy."
         imageUrl: "dp3.jpg"
         imageWidth: 120
         imageHeight: 120
