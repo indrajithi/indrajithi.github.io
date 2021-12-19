@@ -174,3 +174,34 @@ We tend to imitate the behaviors of the people we are close with. The need to *f
 
 If a behavior can get us approval, respect, and praise, we find it attractive.
 
+#### 2. Imitating the many
+
+The normal behavior of the tribe often overpowers the normal behavior of the individual
+There is a tremendous internal pressure to comply with the norms of the group. The reward of being accepted is often greater than the reward of winning an argument, looking smart or finding the truth.
+
+**Most days we'd rather be wrong with the crowd than be right by ourselves.** When changing the habits means challenging the tribe, change is unattractive. When changing the habits means fitting with the tribe, change is very attractive.
+
+#### 3. Imitating the powerful
+
+We are drawn to behaviors that earn us respect, approval, admiration, and status. **Once we fit in we want to stand out**
+Many of our daily habits are imitation of people we admire. We try to copy the behavior or the successful people because we want success ourselves. We are highly motivated to avoid the behavior that will lower our status.
+"What will others think of me" - is the driving factor in most of our actions.
+
+- The culture we live in determines which behaviors are attractive.
+
+
+### Chapter 9: How to find and fix the cause of your bad habits
+
+Every behavior has a surface level craving and a deeper underlying motive. The current behavior is not the best way to solve the problem you face; they are just the methods you learned to use. Once you associate a solution to a problem you need to solve, you keep coming back to it.
+
+- The inversion if 2nd Law of Behavior Change is to make it "Unattractive"
+- You habits are modern-day solution to ancient desires.
+- Highlight the benefits of avoiding bad habits, to make it seem unattractive.
+
+
+<!-- ## Essays to write
+
+1. The need for approval
+2. You habits are modern-day solution to ancient desires. -->
+
+
