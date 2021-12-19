@@ -1,7 +1,7 @@
 ---
 title: "Atomic Habits [Notes]"
 date: 2021-10-21T23:17:01+05:30
-draft: false
+draft: true
 ---
 
 This is notes from the book [Atomic Habits](https://jamesclear.com/atomic-habits) by [James Clear](https://twitter.com/JamesClear)
