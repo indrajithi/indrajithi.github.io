@@ -47,16 +47,12 @@ Installation
 * *App will run on* `localhost:8000`
 
 ## Music Genre Classifier
+
 Our app is written in Python using Django framework. We are using a trained `Poly Kernel SVM` for finding the genre.
 
-Our web application uses the package `mysvm` which we developed to extract features and to find the genre. 
+Our web application uses the package `mysvm` which we developed to extract features and to find the genre.
 
-Flow Chart
-----------
-![Flow Chart](/flowchart_mgc.png)
-
-
-We have developed a python package called [mysvm](https://github.com/indrajithi/mgc-python) for extracting features and classifying music. This package is added to our App. On receiving a request for genre label, we convert the file to `.wav` if it is in other format. Then the features are extracted from the audio file using `mysvm.feature.extract (filename)`. Genre labels can be found by `mysvm.svm.getGenre(filename)` function call. If multi option is selected by the user then `mysvm.svm.getMultiGenre(filename)` function is called. 
+We have developed a python package called [mysvm](https://github.com/indrajithi/mgc-python) for extracting features and classifying music. This package is added to our App. On receiving a request for genre label, we convert the file to `.wav` if it is in other format. Then the features are extracted from the audio file using `mysvm.feature.extract (filename)`.
 
 [Prototype](https://github.com/indrajithi/music-genre-classification-matlab)
 -----------
