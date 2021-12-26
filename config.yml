@@ -55,7 +55,7 @@ params:
     profileMode:
         enabled: true # needs to be explicitly set
         title: "Indrajith Indraprastham"
-        subtitle: "Hi there, you have reached my blog. In the parallel universe I write on Technology, Investing, Politics and Psychology. Here I copy paste somethings from the web ;)"
+        subtitle: "Hi there, you have reached my blog. In a parallel universe I write on Technology, Investing, Politics and Psychology. Here I copy paste somethings from the web ;)"
         imageUrl: "dp3.jpg"
         imageWidth: 120
         imageHeight: 120
