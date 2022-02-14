@@ -1,10 +1,13 @@
 ---
 title: "Atomic Habits [Notes]"
 date: 2021-10-21T23:17:01+05:30
-draft: true
+draft: false
 ---
 
-This is notes from the book [Atomic Habits](https://jamesclear.com/atomic-habits) by [James Clear](https://twitter.com/JamesClear)
+  > Happiness is the state between one desire being fulfilled and new desire forming.
+  > Suffering is the state between craving a change in state and achieving it.
+
+This is my notes from the book [Atomic Habits](https://jamesclear.com/atomic-habits) by [James Clear](https://twitter.com/JamesClear)
 
 ## The Fundamentals
 
@@ -265,9 +268,6 @@ The point is to master the habit of showing up. You have to standardize before y
 - The inversion of 3rd lar of behavior change is make it difficult.
 - Use technology to automate your habits
 
-
-Happiness is the state between one desire being fulfilled and new desire forming.
-Suffering is the state between craving a change in state and achieving it.
 
 
 <!-- ## Essays to write

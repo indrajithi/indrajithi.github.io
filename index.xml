@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Indrajith Indraprastham</title>
     <link>https://indrajith.me/</link>
@@ -10,7 +10,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Mar 2019 16:05:28 +0530</lastBuildDate><atom:link href="https://indrajith.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Oct 2021 23:17:01 +0530</lastBuildDate><atom:link href="https://indrajith.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atomic Habits [Notes]</title>
+      <link>https://indrajith.me/posts/atomic-habits-book-summary/</link>
+      <pubDate>Thu, 21 Oct 2021 23:17:01 +0530</pubDate>
+      
+      <guid>https://indrajith.me/posts/atomic-habits-book-summary/</guid>
+      <description>Happiness is the state between one desire being fulfilled and new desire forming. Suffering is the state between craving a change in state and achieving it.
+ This is my notes from the book Atomic Habits by James Clear
+The Fundamentals Chapter 1: The Surprising Power of Atomic Habits  The effects of small habits compound over time. If you can get 1% better each day, by the end of the year you&amp;rsquo;d have become 37 times better.</description>
+    </item>
+    
     <item>
       <title>How to develop a Computerized Adaptive Test (CAT)</title>
       <link>https://indrajith.me/posts/computerized-adaptive-test/</link>
