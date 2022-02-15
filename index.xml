@@ -71,5 +71,16 @@ Musical genres have no strict definitions and boundaries as they arise through a
       <description>Python CTI program that gives all the possible match for the given word.</description>
     </item>
     
+    
+    <item>
+      <title>Credits</title>
+      <link>https://indrajith.me/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://indrajith.me/credits/</guid>
+      <description>credits</description>
+    </item>
+    
+    
   </channel>
 </rss>

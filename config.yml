@@ -8,12 +8,19 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+disqus_url: 'https://indrajith-me.disqus.com/'
 
 #googleAnalytics: UA-123-45
 
 minify:
     disableXML: true
     minifyOutput: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -37,6 +44,7 @@ params:
     hideSummary: true
     showtoc: true
     tocopen: false
+    ShowCodeCopyButtons: true
 
     assets:
         # disableHLJS: true # to disable highlight.js
@@ -97,16 +105,28 @@ params:
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
 menu:
-    # main:
-    #     - identifier: categories
-    #       name: categories
-    #       url: /categories/
-    #       weight: 10
-    #     - identifier: tags
-    #       name: tags
-    #       url: /tags/
-    #       weight: 20
-    #     - identifier: example
-    #       name: example.org
-    #       url: https://example.org
-    #       weight: 30
+    main:
+        # - identifier: categories
+        #   name: categories
+        #   url: /categories/
+        #   weight: 10
+        # - identifier: tags
+        #   name: tags
+        #   url: /tags/
+        #   weight: 20
+        - identifier: categories
+          name: Archives
+          url: /archives/
+          weight: 10
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 20
+        - identifier: credits
+          name: Credits
+          url: /credits/
+          weight: 30
+        # - identifier: example
+        #   name: example.org
+        #   url: https://example.org
+        #   weight: 30
