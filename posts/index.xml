@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Oct 2021 23:17:01 +0530</lastBuildDate><atom:link href="https://indrajith.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Feb 2022 21:56:55 +0530</lastBuildDate><atom:link href="https://indrajith.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recursive Queries in PostgreSQL for Hierarchical Data</title>
+      <link>https://indrajith.me/posts/recursive-queries-in-postgresql-for-hierarchial-data/</link>
+      <pubDate>Mon, 14 Feb 2022 21:56:55 +0530</pubDate>
+      
+      <guid>https://indrajith.me/posts/recursive-queries-in-postgresql-for-hierarchial-data/</guid>
+      <description>Recursive queries are typically used to deal with hierarchical or tree-structured data. A common example is when you have a manager &amp;gt; employee relation in a table and you have to construct the organization tree under a manager or find all N level managers of an employee.   Strictly speaking, this process is iteration not recursion, but RECURSIVE is the terminology chosen by the SQL standards committee.
+ PostgreSQL CTE: Common Table Expression From the docs:</description>
+    </item>
+    
     <item>
       <title>Atomic Habits [Notes]</title>
       <link>https://indrajith.me/posts/atomic-habits-book-summary/</link>
