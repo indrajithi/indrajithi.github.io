@@ -8,7 +8,6 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-disqus_url: 'https://indrajith-me.disqus.com/'
 
 #googleAnalytics: UA-123-45
 
