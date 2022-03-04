@@ -27,10 +27,9 @@ params:
     description: "hello"
     keywords: [Blog, Portfolio]
     author: Indrajith Indraprastham
-    # author: ["Me", "You"] # multiple authors
     images: ["dp.jpg"]
     DateFormat: "January 2, 2006"
-    defaultTheme: dark
+    defaultTheme: light
     disableThemeToggle: false
     ShowReadingTime: true
     ShowShareButtons: false
@@ -48,7 +47,7 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "<link / abs url>"
+        favicon: "favicon.ico"
         favicon16x16: "<link / abs url>"
         favicon32x32: "<link / abs url>"
         apple_touch_icon: "<link / abs url>"
@@ -62,8 +61,8 @@ params:
     profileMode:
         enabled: true # needs to be explicitly set
         title: "Indrajith Indraprastham"
-        subtitle: "Hi there, you have reached my blog. In a parallel universe I write on Technology, Investing, Politics and Psychology. Here I copy paste somethings from the web ;)"
-        imageUrl: "dp3.jpg"
+        subtitle: "Hi there, you have reached my blog. In the parallel universe I write on Technology, Investing, Politics and Psychology. Here I copy paste somethings from the web ;)"
+        imageUrl: "alien.jpg"
         imageWidth: 120
         imageHeight: 120
         imageTitle: some dude

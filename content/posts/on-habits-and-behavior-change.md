@@ -1,5 +1,5 @@
 ---
-title: "Atomic Habits [Notes]"
+title: "On habits and behavior change"
 date: 2021-10-21T23:17:01+05:30
 draft: false
 ---
@@ -7,106 +7,105 @@ draft: false
   > Happiness is the state between one desire being fulfilled and new desire forming.
   > Suffering is the state between craving a change in state and achieving it.
 
-This is my notes from the book [Atomic Habits](https://jamesclear.com/atomic-habits) by [James Clear](https://twitter.com/JamesClear)
+## The Compounding Power of Atomic Habits
 
-## The Fundamentals
-
-### Chapter 1: The Surprising Power of Atomic Habits
-
-- The effects of small habits compound over time. 
-- If you can get 1% better each day, by the end of the year you'd have become 37 times better. 
+- The effects of small habits compound over time. If you can get 1% better each day, by the end of the year you'd have become 37 times better.
 - Conversely with bad habits, if you had have become 1% worse every day for one year you'll decline nearly down to zero.
 
-![one percent better or worse](https://jamesclear.com/wp-content/uploads/2015/08/tiny-gains-graph.jpg)
+![one percent better or worse](/images/1percent.jpg)
 
-- The task of breaking bad habits is like uprooting an awk from within us
-- The task of creating good habits is like cultivating a flower plant one day at a time.
-- A bamboo takes 5 years to establish an extensive network of roots underneath before it starts to grow from the ground up, after that it only take it 6 weeks to reach 90 feet (~27 Meeters) into the air.
-- This is the case for bad habits as well. If you are having a chronic back pain, chances are it have not developed overnight as it is apparent. It may be the result of all the tiny yoga/workouts you missed to do everyday that have created a compounding effect of bad habits which have caused that chronic pain.
+The task of breaking bad habits is like uprooting an awk from within us. The task of creating good habits is like cultivating a flower plant one day at a time.
 
-#### Plateau of Latent Potential
+> A bamboo takes 5 years to establish an extensive network of roots underneath before it starts to grow from the ground up, after that it only take it 6 weeks to reach 90 feet (~27 Meeters) into the air.
 
-- When there is no short term reward for the tiny directions/actions you take, people will often get demotivated. When you fail to see a tangible result, you decide to stop.
-- In order to make meaningful difference, habits needs to persist long enough to break through this plateau — what the author calls the *Plateau of Latent Potential*
-- If you find yourself struggling to build good habits or break bad ones, you have not yet crossed the *Plateau of Latent Potential*
-- When nothing seems to work, the author watches a stonecutter hammering a stone to break it. He might have taken 25 hits to finally break it. We know that it is not just the 25th hit that have broken the stone, but all that have gone before.
+This is the case for bad habits as well. If you are having a chronic back pain, chances are it have not developed overnight as it is apparent. It may be the result your sitting habits and all yoga or workout you did'nt to do everyday that have created a compounding effect of bad habits which have caused that chronic pain.
 
-Goals are good in setting a direction, but systems are beset for making progress.
-**Problems when you spend too much time thinking about goals and not design a system**
+## Plateau of Latent Potential
 
-#### Problem #1: Winners and losers have the same goals
+> The time period in which you see no apparent effect of your action.
 
-If successful and unsuccessful people share the same goals, then the goal cannot be what differentiates the winners from the losers.
+When there is no short term reward for the tiny directions or actions you take, people will often get demotivated. When you fail to see a tangible result, you decide to stop. In order to make meaningful difference, habits needs to persist long enough to break through this plateau — what the author calls the *Plateau of Latent Potential*
 
-#### Problem #2: Achieving a goal is only a momentary change
+If you find yourself struggling to build good habits or break bad ones, you have not yet crossed the *Plateau of Latent Potential*
+> When nothing seems to work, the author watches a stonecutter hammering a stone to break it. He might have taken 25 hits to finally break it. We know that it is not just the 25th hit that have broken the stone, but all that have gone before.
 
-Imagine you have a messy room and the goal is to clean the room. And one day you summon the energy to clean it, then you'll have a clean room - for now. But if you maintain the same sloppy habits that led to a messy room in the first place, soon you'll be looking at a pile of clutter and hopping for another burst of motivation. 
+## Do not set Goals. What!! Why?
 
-- You are left chasing the sane outcome because you never changed the system behind it. You treat the symptom without addressing the cause.
-- The cause is your unorganized behavior. What you should be addressing is to create a system to be organized.
+> True long-term strategy is goal-less thinking
 
-#### Problem #3: Goals restrict your happiness
+Goals are good in setting a direction, but systems are best for making progress. We often waste awful lot of time setting goals. And very little time designing a system that can help us achieve those goals.
 
-- The implicit assumption behind a goal is that: "Once I achieve my goal, then I will be happy". The problem with goal first mentality is that you are continually putting happiness off until the next milestone.
-- Goals create an "either-or" conflict: either you achieve your goal and are successful or you fail and you are disappointed.
-- A system-first mentality provides the antidote. When you fall in love with the process rather than the product, you don't have to give yourself to be happy. You can be happy anytime and every time your system is running.
-- A system can be successful in may different forms, not just the one you envisioned the first time.
+### Problem #1: Winners and losers have the same goals
 
-#### Problem #4: Goals are at odds with long-term progress
+> If successful and unsuccessful people share the same goals, then the goal cannot be what differentiates the winners from the losers.
 
-- You find people often themselves reverting to their old habits after they accomplish a goal.
-- The purpose of setting a goal is to win the game. The purpose of building system is to continue playing the game.
-- True long-term thinking is goal-less thinking. It is not about a single accomplishment, but a cycle of endless refinement and continuous improvements.
-- Ultimately, it is your commitment to the process that will determine your progress.
+### Problem #2: Achieving a goal is only a momentary change
 
-### Chapter 2: How your habits shape your identity and (vice versa)
+> Imagine you have a messy room and the goal is to clean the room. And one day you summon the energy to clean it, then you'll have a clean room - for now. But if you maintain the same sloppy habits that led to a messy room in the first place, soon you'll be looking at a pile of clutter and hopping for another burst of motivation. 
 
-**Identity based behavior change:**
+You are left chasing the sane outcome because you never changed the system behind it. You treat the symptom without addressing the cause. The cause is your unorganized behavior. What you should be addressing is to create a system to be organized.
 
-- There are three layers of behavior change
-  1. A change in your outcomes (loosing weight, publishing a book..)
-  2. A change in your process (developing a meditation routine)
-  3. A change in your identity (believes, biases, and wold view)
+### Problem #3: Goals restrict your happiness
 
-- All these levels are good, the problem is in the direction of change.
+> The implicit assumption behind a goal is that: `Once I achieve my goal, then I will be happy. The problem with this goal first mentality is that you are continually putting happiness off until the goal is achieved.`
+> Either you achieve your goal and are successful or you fail and you are disappointed.
 
-- Imagine you are a smoker and want to quit smoking. When someone offered a cigarette you refused by saying.
-  1. I am trying to quit
-  2. I am not a smoker
+When you fall in love with the process rather than the result, you can be **happy anytime** and every time your system is running.
 
-- The person giving the first response actually believes that he is a smoker. And have created that belief have come from the identity he have created.
-- In the second response the person actually does not identifies with someone who smokes. It is part of their former self and he is not that person anymore.
+### Problem #4: Goals are at odds with long-term progress
+
+You find people often themselves reverting to their old habits after they accomplish a goal. **Take the above example of a clean room**
+> The purpose of setting a goal is to win the game. The purpose of building system is to continue playing the game. True long-term thinking is goal-less thinking. It is not about a single accomplishment, but a cycle of endless refinement and continuous improvements.
+
+## Own your behavior so that you can change it
+
+> Imagine you are a smoker and want to quit smoking. When someone offered a cigarette you refused by saying either of the below two response.
+
+1. I am trying to quit
+2. I am not a smoker
+
+The person giving the first response actually believes that he is a smoker. And have created that belief have come from the identity he have created. 
+
+In the second response the person actually does not identifies with someone who smokes. It is part of their former self and he is not that person anymore.
+
+> **There are three layers of behavior change**
+
+1. A change in your outcomes (loosing weight, publishing a book..)
+2. A change in your process (developing a meditation routine)
+3. A change in your identity (believes, biases, and wold view)
 
 When you write each day, you embody the identity of a creative person.
 Whe you make your bed everyday you embody the identity of an organized person
 When you do meditation/yoga everyday you embody the identity of a spiritual person
 
-- The more you repeat a behavior. The more you re-enforce the identity associated with that behavior
-- The most effective way the change your habits is to focus not on what you want to achieve, but on who you want to become
+> The more you repeat a behavior. The more you re-enforce the identity associated with that behavior
+> The most effective way the change your habits is to focus not on what you want to achieve, but on who you want to become
 
-### Chapter 3: How to build habits in 4 simple steps
+## How to build habits
 
-**All habits proceed through four stages in the same order:**
 
-- Cue, craving, response, and reward
-  1. Cue: anything that triggers a craving. (seeing someone smoke, an advertisement, smell of food)
-  2. Craving: anything that creates an ardent need for a response. (craving to smoke, craving to eat)
-  3. Response: any action that produces a reward
-  4. Reward: anything that is very satisfying
+> All habits proceed through four stages in the same order:
 
-- The key for creating new habits:
+1. **Cue**: anything that triggers a craving. (seeing someone smoke, an advertisement, smell of food)
+2. **Craving**: anything that creates an ardent need for a response. (craving to smoke, craving to eat)
+3. **Response**: any action that produces a reward
+4. **Reward**: anything that is very satisfying
 
-  1. Cue: Make it obvious
-  2. Craving: Make it attractive
-  3. Response: Make it easy
-  4. Reward: Make it satisfying
+### How to creating new habits
 
-- The key for breaking bad habits:
+  1. **Cue**: Make it obvious
+  2. **Craving**: Make it attractive
+  3. **Response**: Make it easy
+  4. **Reward**: Make it satisfying
 
-  1. Cue: Make it invisible
-  2. Craving: Make it unattractive
-  3. Response: Make it difficult
-  4. Reward: Make it unsatisfying
+### How to breaking bad habits
+
+  1. **Cue**: Make it invisible
+  2. **Craving**: Make it unattractive
+  3. **Response**: Make it difficult
+  4. **Reward**: Make it unsatisfying
+
+<!-- 
 
 ## The First law: Make it Obvious
 
@@ -275,4 +274,8 @@ The point is to master the habit of showing up. You have to standardize before y
 1. The need for approval
 2. You habits are modern-day solution to ancient desires. -->
 
+ -->
 
+## Credits
+
+[Atomic Habits](https://jamesclear.com/atomic-habits) by [James Clear](https://twitter.com/JamesClear)
