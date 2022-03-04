@@ -24,7 +24,7 @@ This is the case for bad habits as well. If you are having a chronic back pain, 
 
 > The time period in which you see no apparent effect of your action.
 
-When there is no short term reward for the tiny directions or actions you take, people will often get demotivated. When you fail to see a tangible result, you decide to stop. In order to make meaningful difference, habits needs to persist long enough to break through this plateau — what the author calls the *Plateau of Latent Potential*
+When there is no short term reward for the tiny directions or actions you take, people will often get demotivated. When you fail to see a tangible result, you decide to stop. In order to make meaningful difference, habits needs to persist long enough to break through this plateau — what [James Clear](https://twitter.com/JamesClear) calls the *Plateau of Latent Potential*
 
 If you find yourself struggling to build good habits or break bad ones, you have not yet crossed the *Plateau of Latent Potential*
 > When nothing seems to work, the author watches a stonecutter hammering a stone to break it. He might have taken 25 hits to finally break it. We know that it is not just the 25th hit that have broken the stone, but all that have gone before.
