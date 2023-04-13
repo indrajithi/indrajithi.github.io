@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   // Set up FlipDown
-  var flipdown = new FlipDown(1688668200, { theme: 'dark' })
+  var flipdown = new FlipDown(1688725800, { theme: 'dark' })
     // Start the countdown
     .start()
 
