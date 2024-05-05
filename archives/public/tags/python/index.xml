@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Indrajith Indraprastham</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Indrajith Indraprastham</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Apr 2016 18:54:48 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jumble Words solver using Python</title>
+      <link>http://localhost:1313/posts/jumble-words-solver-in-python/</link>
+      <pubDate>Fri, 15 Apr 2016 18:54:48 +0530</pubDate>
+      <guid>http://localhost:1313/posts/jumble-words-solver-in-python/</guid>
+      <description>Download the Dictionary First you have to download the dictionary words.txt https://github.com/indrajithi/anagram/blob/master/words.txt&#xA;Open the dictionary file in python Create a file called anagram.py and the add the following.&#xA;file = open(&amp;#39;words.txt&amp;#39;) wd_in = raw_input(&amp;#34;enter a jumbled word: &amp;#34;) found = 0 Function anagram Now lets define a function is_anagram()&#xA;def is_anagram(word1, word2): &amp;#34;&amp;#34;&amp;#34;Returns True if anagram is found. Else return False.&amp;#34;&amp;#34;&amp;#34; count = 0 word1, word2 = list(word1), list(word2) if len(word1) == len(word2): for i in word1: if i in word2: word2.</description>
+    </item>
+  </channel>
+</rss>

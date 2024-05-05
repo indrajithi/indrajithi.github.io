@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenGL on Indrajith Indraprastham</title>
+    <link>http://localhost:1313/tags/opengl/</link>
+    <description>Recent content in OpenGL on Indrajith Indraprastham</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 May 2016 21:01:43 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/opengl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Music Visualizer in C Using OpenGL</title>
+      <link>http://localhost:1313/posts/music-visualizer-in-c-using-opengl/</link>
+      <pubDate>Wed, 25 May 2016 21:01:43 +0530</pubDate>
+      <guid>http://localhost:1313/posts/music-visualizer-in-c-using-opengl/</guid>
+      <description>Audio Visualizer For the given input audio file (.wav) the program will give the real time audio spectrum by performing Fast Fourier Transform (FFT) on the audio samples and plot the graph using OpenGL. This Project is implemented in C++ using OpenGL. Three frameworks Aquila-dsp, Kiss-Fft, and SFML are used to perform audio sampling, fast fourier transform and audio playback respectively. The development and testing of this project is done on Linux (ubuntu) using 4.</description>
+    </item>
+  </channel>
+</rss>
