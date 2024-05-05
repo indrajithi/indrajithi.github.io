@@ -1,0 +1,45 @@
+baseURL: "https://indrajith.me/"
+languageCode: en-us
+title: Indrajith Indraprastham
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Indrajith Indraprastham
+    description: "hello"
+    keywords: [Blog, Portfolio]
+    author: Indrajith Indraprastham
+    images: ["dp.jpg"]
+    DateFormat: "January 2, 2006"
+    defaultTheme: light
+    disableThemeToggle: false
+    ShowReadingTime: true
+    ShowShareButtons: false
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: true
+    hidemeta: false
+    hideSummary: true
+    showtoc: true
+    tocopen: false
+    ShowCodeCopyButtons: true
