@@ -2,46 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/a-simple-qr-based-food-ordering-app/</loc>
+    <loc>https://indrajith.me/</loc>
     <lastmod>2024-05-05T15:15:56+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://indrajith.me/posts/</loc>
     <lastmod>2024-05-05T15:15:56+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-05-05T15:15:56+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/recursive-queries-in-postgresql-for-hierarchial-data/</loc>
+    <loc>https://indrajith.me/posts/recursive-queries-in-postgresql-for-hierarchial-data/</loc>
     <lastmod>2022-02-14T21:56:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/on-habits-and-behavior-change/</loc>
+    <loc>https://indrajith.me/posts/on-habits-and-behavior-change/</loc>
     <lastmod>2021-10-21T23:17:01+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/computerized-adaptive-test/</loc>
+    <loc>https://indrajith.me/posts/computerized-adaptive-test/</loc>
     <lastmod>2019-03-25T16:05:28+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/machine-learning-aproach-to-classify-music-based-on-genre/</loc>
+    <loc>https://indrajith.me/posts/machine-learning-aproach-to-classify-music-based-on-genre/</loc>
     <lastmod>2017-07-29T11:58:29+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/music-visualizer-in-c-using-opengl/</loc>
+    <loc>https://indrajith.me/posts/music-visualizer-in-c-using-opengl/</loc>
     <lastmod>2016-05-25T21:01:43+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/opengl/</loc>
+    <loc>https://indrajith.me/tags/opengl/</loc>
     <lastmod>2016-05-25T21:01:43+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://indrajith.me/tags/</loc>
     <lastmod>2016-05-25T21:01:43+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/jumbled-words-solver-in-python/</loc>
+    <loc>https://indrajith.me/posts/jumbled-words-solver-in-python/</loc>
     <lastmod>2016-04-15T18:54:48+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>https://indrajith.me/tags/python/</loc>
     <lastmod>2016-04-15T18:54:48+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://indrajith.me/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://indrajith.me/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://indrajith.me/search/</loc>
   </url>
 </urlset>
