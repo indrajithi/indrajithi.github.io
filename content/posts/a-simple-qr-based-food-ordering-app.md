@@ -1,42 +1,45 @@
 ---
 title: "A Simple QR Based Food Ordering App"
 date: 2024-05-05T15:15:56+05:30
-draft: true
+draft: false
 ---
-
 
 ## Why
 
-I am staying in a hostel in Bangalore for some days. They hired a cook and opened a kitchen in the Hostel. To order food we have to call the cook and place the order. The menu is on the wall near the kitchen. After a few days of ordering food by calling the cook. It occurred to me that a QR based food ordering would be nice here. It needs to be very simple. Scan the QR, select the items, place the order. No phone verification or OTP nonsense.
+During my stay at a hostel in Bangalore, I noticed the inconvenience of the existing food ordering system in the hostel. To order food, we had to call the cook and place our orders verbally or find the cook and place the order directly if you are new to the place.
 
-User flow:
+The menu was displayed on the wall near the kitchen, making it cumbersome to browse and decide. After a few days of this, I thought a QR-based food ordering system would be a great improvement. The idea was to make it as simple as possible: scan the QR, select the items, and place the order on WhatsApp. No phone verification or OTP hassle.
 
-1. Scan the QR code near your bed or the space you are in (balcony, living room etc)
-2. After clicking on the link in the QR, a web application will show all the menu items available.
-3. Select the items you want and place the order.
-4. The order will be placed through your whatsapp to the cooks whatsapp number.
+This could be suitable for any hotel which has a restaurant facility, where we can enable customers to place the order from their room.
 
-This way there is no need to verify the user who created the order. The cook can know which bed or space you placed the order from and bring you the order.
+## User Flow
 
-I wrote some code using react and node and create a prototype in two days. Showed it to people and they loved the user experience.
+1. **Scan the QR code:** Placed near your bed or any common area (balcony, living room, etc.).
+2. **Browse the menu:** Click the link in the QR code to open a web application displaying the menu items.
+3. **Select and order:** Choose the items you want and place the order.
+4. **Order via WhatsApp:** The order gets sent through your WhatsApp to the cook's WhatsApp number.
 
-I went live in a week. Show the video.
+This system eliminates the need to verify the user, as the cook can identify the location of the order from the QR code and deliver it accordingly.
 
-Integrated mixplanel to understand the insights into how customers are using the application. (show image)
+## Demo
 
-The property managers loved the idea and asked me to onboard seven other airbnbs they have.
+<!-- ![Demo](/images/demo-qr.jpg) -->
+![Demo](/images/demo-order.jpg)
 
-Challenge.
+## Development and Launch
 
-1. Expertise in tech
-2. Had quit the job the take a break
-3. Funding
-4. Sales
-5. Co-founder
+I quickly developed a prototype in two days. After showing it to a few people, they loved the user experience. Within a week, I went live with the app.
 
-Other ideas I have in mind in the same space:
+### Message to the cook
 
-1. POS
-2. Restaurant inventory
-3. Supply chain
+![Demo](/images/order.png)
 
+To gain insights into how users interacted with the application, I integrated analytics. This enabled us to understand what are the most sold items and how people are engaging with the application.
+
+![Demo](/images/dine-analytics.png)
+
+The property managers were impressed with the system and asked me to onboard it in seven other Airbnb properties they managed.
+
+## Challenges
+
+I was able to solve the problem with the application but struggled to sell it to more people and generate revenue. As a tech person, selling is not my strong suit. Now, I'm considering deprecating the app if I cannot find sales before my GCP credits run out, as there is not much revenue being generated from this project.

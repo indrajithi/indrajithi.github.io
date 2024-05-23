@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Indrajith Indraprastham</title>
-    <link>https://indrajith.me/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Indrajith Indraprastham</description>
     <image>
       <title>Indrajith Indraprastham</title>
-      <url>https://indrajith.me/dp.jpg</url>
-      <link>https://indrajith.me/dp.jpg</link>
+      <url>http://localhost:1313/dp.jpg</url>
+      <link>http://localhost:1313/dp.jpg</link>
     </image>
     <generator>Hugo -- 0.125.5</generator>
     <language>en-us</language>
-    <atom:link href="https://indrajith.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
