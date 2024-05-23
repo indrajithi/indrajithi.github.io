@@ -43,3 +43,8 @@ The property managers were impressed with the system and asked me to onboard it 
 ## Challenges
 
 I was able to solve the problem with the application but struggled to sell it to more people and generate revenue. As a tech person, selling is not my strong suit. Now, I'm considering deprecating the app if I cannot find sales before my GCP credits run out, as there is not much revenue being generated from this project.
+
+## Source Code
+
+1. [dine-engine](https://github.com/RupxCompany/dine-engine)
+2. [dine-ui](https://github.com/RupxCompany/dine-ui )
