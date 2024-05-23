@@ -19,7 +19,7 @@ This could be suitable for any hotel which has a restaurant facility, where we c
 3. **Select and order:** Choose the items you want and place the order.
 4. **Order via WhatsApp:** The order gets sent through your WhatsApp to the cook's WhatsApp number.
 
-This system eliminates the need to verify the user, as the cook can identify the location of the order from the QR code and deliver it accordingly.
+This system eliminates the need to verify the user, as the cook can identify the location of the order from the message and deliver it accordingly.
 
 ## Demo
 
