@@ -5,7 +5,8 @@ draft: false
 author: "Indrajith Indraprastham"
 showToc: true
 ---
-![Cat test](/cat-test.png)
+Fooobar
+![Cat testzzzzzz](/images/cat-test.png)
 
 In this post, I’ll share the step by step process we used at [AirCTO](https://www.linkedin.com/company/aircto/) to create computerized adaptive tests.
 
@@ -15,7 +16,7 @@ At AirCTO we use adaptive tests to measure the ability of the candidate in diffe
 
 > [Computerized adaptive testing (CAT)](https://en.wikipedia.org/wiki/Computerized_adaptive_testing)) is a form of computer-based test that adapts to the examinee's ability level. For this reason, it has also been called tailored testing. In other words, it is a form of computer-administered test in which the next item or set of items selected to be administered depends on the correctness of the test taker's responses to the most recent items administered.
 
-![Adaptive test](/cat.png)
+![Adaptive test](/images/cat.png)
 
 ## Why we use the adaptive test?
 

@@ -5,7 +5,7 @@ draft: false
 author: "Indrajith Indraprastham"
 showToc: true
 ---
-![Cat test](/cat-test.png)
+![Cat test](/images/cat-test.png)
 
 In this post, I’ll share the step by step process we used at [AirCTO](https://www.linkedin.com/company/aircto/) to create computerized adaptive tests.
 
@@ -15,7 +15,7 @@ At AirCTO we use adaptive tests to measure the ability of the candidate in diffe
 
 > [Computerized adaptive testing (CAT)](https://en.wikipedia.org/wiki/Computerized_adaptive_testing)) is a form of computer-based test that adapts to the examinee's ability level. For this reason, it has also been called tailored testing. In other words, it is a form of computer-administered test in which the next item or set of items selected to be administered depends on the correctness of the test taker's responses to the most recent items administered.
 
-![Adaptive test](/cat.png)
+![Adaptive test](/images/cat.png)
 
 ## Why we use the adaptive test?
 
@@ -23,7 +23,7 @@ Adaptive tests are designed to challenge candidates. High-achieving candidates w
 
 Likewise, if lower-achieving candidates served by questions that are far above their current abilities they are left guessing the answers instead of applying what they already know.
 
-![Aircto Cat Test](/aircto-cat.gif)
+![Aircto Cat Test](/images/aircto-cat.gif)
 
 **Adaptive testing** addresses these issues by adjusting the questions to the individual proficiency of the candidate. High-achieving candidates are challenged by more difficult questions, while candidates who are slightly below the average are not overwhelmed but rather encouraged to continue moving forward by answering questions at or slightly above their current achievement level.
 
@@ -44,8 +44,8 @@ Item Response Theory (IRT) is a statistical framework in which examinees can be 
 
 IRT states that the probability of an examinee correctly answering the question is a function of the candidates true ability (θ) and the difficulty of the question (bi).
 
-![Item response theory](/irt.png)
-![2pl Model](/irt2.png)
+![Item response theory](/images/irt.png)
+![2pl Model](/images/irt2.png)
 
 [Source](http://doingbayesiandataanalysis.blogspot.com/2015/12/bayesian-item-response-theory-in-jags.html)
 
@@ -83,14 +83,14 @@ Some times when you know the answer partially, one question might feel more prob
 
 >An **asymptote** of a [curve](https://en.wikipedia.org/wiki/Curve) is a line such that the distance between the curve and the line approaches zero as one or both of the x or y coordinates [tends to infinity](https://en.wikipedia.org/wiki/Limit_of_a_function#Limits_at_infinity).
 
-![Asymptote](/asymptote.png)
+![Asymptote](/images/asymptote.png)
 `d` represents an item’s `upper asymptote`. This parameter denotes what is the probability of individuals with high proficiency values to still answer the item incorrectly. 
 
 Since d is a probability, 0< d ≤1, the higher the value of this parameter, the better the item is considered.
 
 In our implementation, we have used three-parameter model (3PL) with parameters `a, b, c and d` is a constant *numpy.ones((n))*.
 
-![Principal of cat](/principals-of-cat.png)
+![Principal of cat](/images/principals-of-cat.png)
 
 > Each item has a different set of these three parameters. These parameters are usually calculated based on prior administrations of the item.
 
@@ -102,7 +102,7 @@ In our implementation, we have used three-parameter model (3PL) with parameters 
 \
 \
 \
-![Item parameters](/item-parameters.jpeg)
+![Item parameters](/images/item-parameters.jpeg)
 
 
 >Once we have enough samples these **item parameters** can be re-calibrated for better performance.
@@ -112,7 +112,7 @@ The **3PL** **IRT** model states that probability of a correct response to an it
 
 Under IRT, the **probability** of an examinee with a given θ^ value (_estimated_ _ability_), to **answer item i correctly**, given the item parameters, is given by:
 
-![Correct Answer](/p-correct-answer-irt.png)
+![Correct Answer](/images/p-correct-answer-irt.png)
 
  
 With IRT, maximum information can be quantified as the standardized slope of ( θ) at θ^ . In other words
