@@ -12,6 +12,9 @@ The menu was displayed on the wall near the kitchen, making it cumbersome to bro
 
 This could be suitable for any hotel which has a restaurant facility, where we can enable customers to place the order from their room.
 
+
+![Demo](/images/qr_demo.gif)
+
 ## User Flow
 
 1. **Scan the QR code:** Placed near your bed or any common area (balcony, living room, etc.).
@@ -20,11 +23,6 @@ This could be suitable for any hotel which has a restaurant facility, where we c
 4. **Order via WhatsApp:** The order gets sent through your WhatsApp to the cook's WhatsApp number.
 
 This system eliminates the need to verify the user, as the cook can identify the location of the order from the message and deliver it accordingly.
-
-## Demo
-
-<!-- ![Demo](/images/demo-qr.jpg) -->
-![Demo](/images/demo-order.jpg)
 
 ## Development and Launch
 
