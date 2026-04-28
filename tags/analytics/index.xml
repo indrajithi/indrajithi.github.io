@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Analytics on Indrajith Indraprastham</title>
+    <link>https://indrajith.me/tags/analytics/</link>
+    <description>Recent content in Analytics on Indrajith Indraprastham</description>
+    <image>
+      <title>Indrajith Indraprastham</title>
+      <url>https://indrajith.me/dp.jpg</url>
+      <link>https://indrajith.me/dp.jpg</link>
+    </image>
+    <generator>Hugo -- 0.125.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 May 2024 06:17:05 +0530</lastBuildDate>
+    <atom:link href="https://indrajith.me/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating Cohort Retention Analysis in BigQuery: A Comprehensive Guide</title>
+      <link>https://indrajith.me/posts/cohort-retention-analysis-on-bigquery/</link>
+      <pubDate>Fri, 24 May 2024 06:17:05 +0530</pubDate>
+      <guid>https://indrajith.me/posts/cohort-retention-analysis-on-bigquery/</guid>
+      <description>Cohort retention analysis is one of those things that sounds fancy but boils down to a simple question: are your users coming back? This post walks through building it from scratch in BigQuery — no external datasets, just a small synthetic table we&amp;rsquo;ll create together.
+What is a Cohort? A cohort is a group of users who share a common starting point — usually their first interaction with your product.</description>
+    </item>
+  </channel>
+</rss>
