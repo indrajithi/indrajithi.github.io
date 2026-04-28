@@ -1,0 +1,30 @@
+{{- define "main" }}
+<style>
+  .main { max-width: min(1200px, 95vw); }
+  .resume-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+    padding: 0.55rem 1.2rem;
+    background: var(--primary);
+    color: var(--theme);
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    transition: opacity 0.15s ease;
+  }
+  .resume-download:hover { opacity: 0.8; }
+</style>
+<div class="post-single">
+  <a href="/resume_indrajith.pdf" download class="resume-download">
+    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+    Download Resume
+  </a>
+  <div style="width:100%;height:88vh;border:1px solid var(--border);border-radius:6px;overflow:hidden;">
+    <iframe src="/resume_indrajith.pdf#navpanes=1&view=FitH" style="width:100%;height:100%;border:none;" title="Resume"></iframe>
+  </div>
+</div>
+{{- end }}

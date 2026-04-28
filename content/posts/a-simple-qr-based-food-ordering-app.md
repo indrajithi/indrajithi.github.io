@@ -1,5 +1,5 @@
 ---
-title: "A Simple QR Based Food Ordering App"
+title: "Lesions Learned: A Simple QR Based Food Ordering App"
 date: 2024-05-05T15:15:56+05:30
 draft: false
 ---
