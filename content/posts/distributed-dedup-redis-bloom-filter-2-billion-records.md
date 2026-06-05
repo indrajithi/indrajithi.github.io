@@ -292,13 +292,13 @@ The naive version of the shared store is a plain Redis set: store every dedup ke
 
 A transaction that first appeared months ago could be re-sent today, and we still have to recognize it as a duplicate. The set of "keys we have seen" never resets and only grows. It is a permanent, ever-expanding keyspace.
 
-At two billion files with 50–100 records each, the keyspace is on the order of **100 billion unique keys**. Stored as explicit keys in Redis, at ~80 bytes per key including overhead:
+With two billion records spread across years of operation — thousands of stores, six POS vendors, running daily — the set of unique dedup keys grows into the **tens of billions**. Stored as explicit keys in Redis, at ~80 bytes per key including overhead:
 
 <div class="bloom-compare reveal">
   <div class="bloom-card bad">
     <div class="bloom-card-label">Plain Redis Set</div>
     <div class="bloom-card-num">6–16 TB</div>
-    <div class="bloom-card-body">~80 bytes per key × 100B keys. A cluster of expensive memory-optimized machines whose cost rises every day. Grows forever.</div>
+    <div class="bloom-card-body">~80 bytes per key across tens of billions of keys. A cluster of expensive memory-optimized machines whose cost rises every day. Grows forever.</div>
   </div>
   <div class="bloom-card good">
     <div class="bloom-card-label">Redis Bloom Filter</div>
@@ -339,22 +339,24 @@ The deployed configuration:
 The implementation uses pipelined batch writes — hundreds of dedup checks per Redis round-trip instead of one per key:
 
 ```python
-class RedisDistributedState:
+class RedisBloomDedup:
     def is_duplicate(self, dedup_key: str) -> bool:
-        return self.client.sismember("dedup:seen_transactions", dedup_key)
+        # BF.EXISTS returns 1 (probable duplicate) or 0 (definitely new)
+        return self.client.execute_command("BF.EXISTS", "dedup:seen_transactions", dedup_key)
 
-    def batch_mark_processed(self, dedup_keys: list[str]) -> list:
+    def batch_check_and_add(self, dedup_keys: list[str]) -> list:
         pipe = self.client.pipeline()
         for key in dedup_keys:
-            pipe.sadd("dedup:seen_transactions", key)
+            # BF.ADD returns 0 if already present (probable duplicate), 1 if newly inserted
+            pipe.execute_command("BF.ADD", "dedup:seen_transactions", key)
         return pipe.execute()
 ```
 
-Without pipelining, each file's dedup check is a separate Redis round-trip — at 100 threads across 50K files that is five million individual network calls. With pipelining, hundreds of checks go in each batch, reducing round-trips by ~100×.
+Without pipelining, each record's dedup check is a separate Redis round-trip — at 100 threads across 50K files that is millions of individual network calls. With pipelining, hundreds of checks go in each batch, reducing round-trips by ~100×.
 
 ---
 
-## The 2-billion-file backload
+## The 2-billion-record backload
 
 With the single-container shape correct and the shared dedup brain in place, the full backload becomes tractable.
 
@@ -372,7 +374,7 @@ Each container sustains ~107 files/sec on the realistic chunked workload. It is 
 
 ## What actually landed in Snowflake
 
-After the Databricks runs reached production, real records reached the warehouse:
+After the Container Apps pipeline went live, real records reached the warehouse:
 
 <div class="post-table">
 <table>
@@ -457,7 +459,7 @@ Verbose but reliable. The same pattern worked for querying ADF pipeline run hist
 <tbody>
 <tr><td>Original pipeline</td><td>0.08 files/sec — 113 files in 23 min</td></tr>
 <tr><td>Business requirement</td><td>83.33 files/sec — 50K in under 10 min</td></tr>
-<tr><td>Azure Functions best (client cloud)</td><td>59 files/sec</td></tr>
+<tr><td>Azure Functions best (after optimization)</td><td>59 files/sec</td></tr>
 <tr><td>Databricks Photon</td><td>123–132 files/sec</td></tr>
 <tr><td>Container Apps 50K job</td><td><strong>152 files/sec</strong></td></tr>
 <tr><td>Container Apps 233K chunked</td><td>107 files/sec</td></tr>
