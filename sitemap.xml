@@ -2,11 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://indrajith.me/tags/apache-iceberg/</loc>
+    <lastmod>2026-06-05T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://indrajith.me/tags/azure/</loc>
+    <lastmod>2026-06-05T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://indrajith.me/tags/data-engineering/</loc>
+    <lastmod>2026-06-05T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://indrajith.me/tags/databricks/</loc>
+    <lastmod>2026-06-05T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://indrajith.me/posts/distributed-dedup-redis-bloom-filter-2-billion-records/</loc>
+    <lastmod>2026-06-05T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://indrajith.me/tags/distributed-systems/</loc>
+    <lastmod>2026-06-05T10:00:00+05:30</lastmod>
+  </url><url>
     <loc>https://indrajith.me/</loc>
-    <lastmod>2026-04-04T07:53:27+05:30</lastmod>
+    <lastmod>2026-06-05T10:00:00+05:30</lastmod>
   </url><url>
     <loc>https://indrajith.me/posts/</loc>
-    <lastmod>2026-04-04T07:53:27+05:30</lastmod>
+    <lastmod>2026-06-05T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://indrajith.me/tags/python/</loc>
+    <lastmod>2026-06-05T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://indrajith.me/tags/redis/</loc>
+    <lastmod>2026-06-05T10:00:00+05:30</lastmod>
+  </url><url>
+    <loc>https://indrajith.me/tags/</loc>
+    <lastmod>2026-06-05T10:00:00+05:30</lastmod>
   </url><url>
     <loc>https://indrajith.me/tags/analytics/</loc>
     <lastmod>2024-05-24T06:17:05+05:30</lastmod>
@@ -18,9 +45,6 @@
     <lastmod>2024-05-24T06:17:05+05:30</lastmod>
   </url><url>
     <loc>https://indrajith.me/tags/sql/</loc>
-    <lastmod>2024-05-24T06:17:05+05:30</lastmod>
-  </url><url>
-    <loc>https://indrajith.me/tags/</loc>
     <lastmod>2024-05-24T06:17:05+05:30</lastmod>
   </url><url>
     <loc>https://indrajith.me/posts/a-simple-qr-based-food-ordering-app/</loc>
@@ -45,9 +69,6 @@
     <lastmod>2016-05-25T21:01:43+05:30</lastmod>
   </url><url>
     <loc>https://indrajith.me/posts/jumbled-words-solver-in-python/</loc>
-    <lastmod>2016-04-15T18:54:48+05:30</lastmod>
-  </url><url>
-    <loc>https://indrajith.me/tags/python/</loc>
     <lastmod>2016-04-15T18:54:48+05:30</lastmod>
   </url><url>
     <loc>https://indrajith.me/archives/</loc>

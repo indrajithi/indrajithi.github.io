@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Redis on Indrajith Indraprastham</title>
+    <link>https://indrajith.me/tags/redis/</link>
+    <description>Recent content in Redis on Indrajith Indraprastham</description>
+    <image>
+      <title>Indrajith Indraprastham</title>
+      <url>https://indrajith.me/dp.jpg</url>
+      <link>https://indrajith.me/dp.jpg</link>
+    </image>
+    <generator>Hugo -- 0.125.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jun 2026 10:00:00 +0530</lastBuildDate>
+    <atom:link href="https://indrajith.me/tags/redis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed Dedup at Scale: The Redis Bloom Filter That Replaced 16 TB of RAM</title>
+      <link>https://indrajith.me/posts/distributed-dedup-redis-bloom-filter-2-billion-records/</link>
+      <pubDate>Fri, 05 Jun 2026 10:00:00 +0530</pubDate>
+      <guid>https://indrajith.me/posts/distributed-dedup-redis-bloom-filter-2-billion-records/</guid>
+      <description>A major North American retailer needed to process two billion point-of-sale records. The existing architecture couldn&amp;rsquo;t survive two thousand files. This is the story of the rebuild, the two dead ends we hit along the way, and the one design decision that made the whole thing scale.
+The short version: the original pipeline wasn&amp;rsquo;t slow because the code was bad. It was slow because the architecture was the wrong shape for the problem.</description>
+    </item>
+  </channel>
+</rss>

@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.125.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Apr 2016 18:54:48 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 10:00:00 +0530</lastBuildDate>
     <atom:link href="https://indrajith.me/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distributed Dedup at Scale: The Redis Bloom Filter That Replaced 16 TB of RAM</title>
+      <link>https://indrajith.me/posts/distributed-dedup-redis-bloom-filter-2-billion-records/</link>
+      <pubDate>Fri, 05 Jun 2026 10:00:00 +0530</pubDate>
+      <guid>https://indrajith.me/posts/distributed-dedup-redis-bloom-filter-2-billion-records/</guid>
+      <description>A major North American retailer needed to process two billion point-of-sale records. The existing architecture couldn&amp;rsquo;t survive two thousand files. This is the story of the rebuild, the two dead ends we hit along the way, and the one design decision that made the whole thing scale.
+The short version: the original pipeline wasn&amp;rsquo;t slow because the code was bad. It was slow because the architecture was the wrong shape for the problem.</description>
+    </item>
     <item>
       <title>Jumble Words solver using Python</title>
       <link>https://indrajith.me/posts/jumbled-words-solver-in-python/</link>

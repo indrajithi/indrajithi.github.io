@@ -129,3 +129,8 @@ menu:
         #   name: example.org
         #   url: https://example.org
         #   weight: 30
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

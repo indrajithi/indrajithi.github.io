@@ -11,8 +11,57 @@
     </image>
     <generator>Hugo -- 0.125.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 May 2024 06:17:05 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 10:00:00 +0530</lastBuildDate>
     <atom:link href="https://indrajith.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache-Iceberg</title>
+      <link>https://indrajith.me/tags/apache-iceberg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://indrajith.me/tags/apache-iceberg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure</title>
+      <link>https://indrajith.me/tags/azure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://indrajith.me/tags/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Engineering</title>
+      <link>https://indrajith.me/tags/data-engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://indrajith.me/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Databricks</title>
+      <link>https://indrajith.me/tags/databricks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://indrajith.me/tags/databricks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distributed-Systems</title>
+      <link>https://indrajith.me/tags/distributed-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://indrajith.me/tags/distributed-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://indrajith.me/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://indrajith.me/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Redis</title>
+      <link>https://indrajith.me/tags/redis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://indrajith.me/tags/redis/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Analytics</title>
       <link>https://indrajith.me/tags/analytics/</link>
@@ -39,13 +88,6 @@
       <link>https://indrajith.me/tags/opengl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://indrajith.me/tags/opengl/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://indrajith.me/tags/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://indrajith.me/tags/python/</guid>
       <description></description>
     </item>
   </channel>
