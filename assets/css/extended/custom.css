@@ -1,3 +1,19 @@
+/* ── Accent colour — adapts to light / dark theme ──────────────────────── */
+:root {
+  --accent:       #4a7c00;          /* dark olive-green — readable on white */
+  --accent-tint:  rgba(74,124,0,0.06);
+  --accent-rule:  rgba(74,124,0,0.22);
+  --accent-hover: rgba(74,124,0,0.05);
+  --accent-mid:   rgba(74,124,0,0.08);
+}
+.dark {
+  --accent:       #c8f135;          /* lime — pops on dark */
+  --accent-tint:  rgba(200,241,53,0.06);
+  --accent-rule:  rgba(200,241,53,0.18);
+  --accent-hover: rgba(200,241,53,0.04);
+  --accent-mid:   rgba(200,241,53,0.08);
+}
+
 /* ── Post-level UI components ─────────────────────────────────────────── */
 
 /* Stat hero ─ the big before/after number */
@@ -23,7 +39,7 @@
   align-items: center;
   justify-content: center;
   padding: 1rem 1.8rem;
-  background: rgba(200,241,53,0.06);
+  background: var(--accent-tint);
 }
 .stat-hero-label {
   font-size: 0.7rem;
@@ -54,7 +70,7 @@
 .stat-hero-gap {
   font-size: 2rem;
   font-weight: 900;
-  color: #c8f135;
+  color: var(--accent);
   font-family: Georgia, serif;
   line-height: 1;
 }
@@ -230,9 +246,9 @@
 .callout {
   margin: 2rem 0;
   padding: 1.4rem 1.8rem;
-  border-left: 3px solid #c8f135;
+  border-left: 3px solid var(--accent);
   border-radius: 0 12px 12px 0;
-  background: rgba(200,241,53,0.05);
+  background: var(--accent-tint);
 }
 .callout p {
   margin: 0;
@@ -285,8 +301,8 @@
 
 /* Header row — accent tint + bold bottom rule */
 .post-table thead tr {
-  background: rgba(200, 241, 53, 0.06);
-  border-bottom: 2px solid rgba(200, 241, 53, 0.18);
+  background: var(--accent-tint);
+  border-bottom: 2px solid var(--accent-rule);
 }
 .post-table th {
   padding: 0.7rem 1.1rem;
@@ -296,7 +312,7 @@
   letter-spacing: 0.14em;
   text-transform: uppercase;
   font-family: ui-monospace, 'Cascadia Code', monospace;
-  color: #c8f135;
+  color: var(--accent);
   white-space: nowrap;
   border: none;
 }
@@ -307,7 +323,7 @@
 }
 .post-table tbody tr:last-child { border-bottom: none; }
 .post-table tbody tr:nth-child(even) td { background: rgba(128,128,128,0.025); }
-.post-table tbody tr:hover td { background: rgba(200,241,53,0.035); }
+.post-table tbody tr:hover td { background: var(--accent-hover); }
 
 .post-table td {
   padding: 0.7rem 1.1rem;
@@ -356,7 +372,7 @@
   font-weight: 900;
   font-family: Georgia, serif;
   line-height: 1;
-  color: #c8f135;
+  color: var(--accent);
   margin-bottom: 0.35rem;
 }
 .numbers-cell-val.bad  { color: #e8705a; }
@@ -415,8 +431,8 @@
   box-shadow: none;
 }
 .post-content table thead tr {
-  background: rgba(200, 241, 53, 0.06);
-  border-bottom: 2px solid rgba(200, 241, 53, 0.18);
+  background: var(--accent-tint);
+  border-bottom: 2px solid var(--accent-rule);
 }
 .post-content table th {
   padding: 0.7rem 1.1rem;
@@ -426,7 +442,7 @@
   letter-spacing: 0.14em;
   text-transform: uppercase;
   font-family: ui-monospace, 'Cascadia Code', monospace;
-  color: #c8f135;
+  color: var(--accent);
   border: none;
   white-space: nowrap;
   background: transparent;
@@ -437,7 +453,7 @@
 }
 .post-content table tbody tr:last-child { border-bottom: none; }
 .post-content table tbody tr:nth-child(even) td { background: rgba(128,128,128,0.025); }
-.post-content table tbody tr:hover td { background: rgba(200,241,53,0.035); }
+.post-content table tbody tr:hover td { background: var(--accent-hover); }
 .post-content table td {
   padding: 0.7rem 1.1rem;
   border: none;
