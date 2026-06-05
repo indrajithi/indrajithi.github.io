@@ -5,7 +5,7 @@ draft: false
 tags: ["data-engineering", "azure", "python", "distributed-systems", "apache-iceberg", "redis", "databricks"]
 ---
 
-A major North American retailer needed to process two billion point-of-sale records. The existing architecture couldn't survive two thousand files. This is the story of the rebuild, the two dead ends we hit along the way, and the one design decision that made the whole thing scale.
+A major North American retailer needed to process two billion point-of-sale files. The existing architecture couldn't survive two thousand. This is the story of the rebuild, the two dead ends we hit along the way, and the one design decision that made the whole thing scale.
 
 The short version: the original pipeline wasn't slow because the code was bad. It was slow because the architecture was the wrong shape for the problem. No amount of tuning fixes that. You have to change the shape.
 
@@ -292,13 +292,13 @@ The naive version of the shared store is a plain Redis set: store every dedup ke
 
 A transaction that first appeared months ago could be re-sent today, and we still have to recognize it as a duplicate. The set of "keys we have seen" never resets and only grows. It is a permanent, ever-expanding keyspace.
 
-With two billion records spread across years of operation — thousands of stores, six POS vendors, running daily — the set of unique dedup keys grows into the **tens of billions**. Stored as explicit keys in Redis, at ~80 bytes per key including overhead:
+Two billion files, each holding 50–100 transaction records, puts the total keyspace at **100 billion+ unique dedup keys**. Stored as explicit keys in Redis, at ~80 bytes per key including overhead:
 
 <div class="bloom-compare reveal">
   <div class="bloom-card bad">
     <div class="bloom-card-label">Plain Redis Set</div>
     <div class="bloom-card-num">6–16 TB</div>
-    <div class="bloom-card-body">~80 bytes per key across tens of billions of keys. A cluster of expensive memory-optimized machines whose cost rises every day. Grows forever.</div>
+    <div class="bloom-card-body">~80 bytes × 100B+ keys. A cluster of expensive memory-optimized machines whose cost rises every day. Grows forever.</div>
   </div>
   <div class="bloom-card good">
     <div class="bloom-card-label">Redis Bloom Filter</div>
@@ -356,7 +356,7 @@ Without pipelining, each record's dedup check is a separate Redis round-trip —
 
 ---
 
-## The 2-billion-record backload
+## The 2-billion-file backload
 
 With the single-container shape correct and the shared dedup brain in place, the full backload becomes tractable.
 
