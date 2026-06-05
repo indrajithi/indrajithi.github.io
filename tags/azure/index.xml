@@ -18,7 +18,7 @@
       <link>https://indrajith.me/posts/distributed-dedup-redis-bloom-filter-2-billion-records/</link>
       <pubDate>Fri, 05 Jun 2026 10:00:00 +0530</pubDate>
       <guid>https://indrajith.me/posts/distributed-dedup-redis-bloom-filter-2-billion-records/</guid>
-      <description>A major North American retailer needed to process two billion point-of-sale records. The existing architecture couldn&amp;rsquo;t survive two thousand files. This is the story of the rebuild, the two dead ends we hit along the way, and the one design decision that made the whole thing scale.
+      <description>A major North American retailer needed to process two billion point-of-sale files. The existing architecture couldn&amp;rsquo;t survive two thousand. This is the story of the rebuild, the two dead ends we hit along the way, and the one design decision that made the whole thing scale.
 The short version: the original pipeline wasn&amp;rsquo;t slow because the code was bad. It was slow because the architecture was the wrong shape for the problem.</description>
     </item>
   </channel>
