@@ -14,6 +14,11 @@
   --accent-mid:   rgba(200,241,53,0.08);
 }
 
+/* Image zoom cursor hint */
+.post-content img:not(.no-zoom) {
+  cursor: zoom-in;
+}
+
 /* ── Post-level UI components ─────────────────────────────────────────── */
 
 /* Stat hero ─ the big before/after number */
