@@ -1,7 +1,7 @@
 baseURL: "https://indrajith.me/"
 languageCode: en-us
 title: Indrajith Indraprastham
-paginate: 5
+paginate: 25
 theme: PaperMod
 publishDir: "."
 
